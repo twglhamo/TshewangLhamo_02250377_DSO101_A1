@@ -3,7 +3,7 @@ services:
     name: be-todo
     env: docker
     dockerfilePath: backend/Dockerfile
-    context: ./backend
+    context: backend
     region: singapore
     plan: free
     autoDeploy: true
@@ -35,7 +35,7 @@ services:
     name: fe-todo
     env: docker
     dockerfilePath: frontend/Dockerfile
-    context: ./frontend
+    context: frontend
     region: singapore
     plan: free
     autoDeploy: true

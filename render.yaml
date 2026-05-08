@@ -2,7 +2,7 @@ services:
   - type: web
     name: be-todo
     env: docker
-    dockerfilePath: todo-app/backend/Dockerfile
+    dockerfilePath: Dockerfile
     context: todo-app/backend
     region: singapore
     plan: free
@@ -34,7 +34,7 @@ services:
   - type: web
     name: fe-todo
     env: docker
-    dockerfilePath: todo-app/frontend/Dockerfile
+    dockerfilePath: Dockerfile
     context: todo-app/frontend
     region: singapore
     plan: free

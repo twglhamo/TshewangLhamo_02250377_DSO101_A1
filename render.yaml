@@ -2,8 +2,7 @@ services:
   - type: web
     name: be-todo
     env: docker
-    dockerfilePath: Dockerfile
-    context: todo-app/backend
+    dockerfilePath: todo-app/backend/Dockerfile
     region: singapore
     plan: free
     autoDeploy: true
@@ -34,8 +33,7 @@ services:
   - type: web
     name: fe-todo
     env: docker
-    dockerfilePath: Dockerfile
-    context: todo-app/frontend
+    dockerfilePath: todo-app/frontend/Dockerfile
     region: singapore
     plan: free
     autoDeploy: true

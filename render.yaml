@@ -1,0 +1,44 @@
+services:
+  - type: web
+    name: be-todo
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    region: singapore
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: DB_HOST
+        fromDatabase:
+          name: todo-db
+          property: host
+      - key: DB_USER
+        fromDatabase:
+          name: todo-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: todo-db
+          property: password
+      - key: DB_NAME
+        fromDatabase:
+          name: todo-db
+          property: database
+      - key: DB_PORT
+        fromDatabase:
+          name: todo-db
+          property: port
+      - key: PORT
+        value: "5000"
+
+  - type: web
+    name: fe-todo
+    env: docker
+    dockerfilePath: ./frontend/Dockerfile
+    region: singapore
+    plan: free
+    autoDeploy: true
+
+databases:
+  - name: todo-db
+    plan: free
+    region: singapore

@@ -2,7 +2,7 @@
 
 **Student:** Tshewang Lhamo  
 **Student ID:** 02250377  
-**Course:** DSO101 - Continuous Integration and Continuous Deployment  
+**Course:** DSO101 - Continuous Integration and Continuous Deployment  .
 **Program:** Bachelor's of Engineering in Software Engineering  
 
 **GitHub Repository:** https://github.com/twglhamo/TshewangLhamo_02250377_DSO101_A1.git

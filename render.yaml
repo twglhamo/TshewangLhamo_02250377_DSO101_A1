@@ -5,8 +5,7 @@ services:
     runtime: docker
     region: singapore
     plan: free
-    dir: ./backend
-    dockerfilePath: Dockerfile
+    dockerfilePath: ./backend/Dockerfile
     envVars:
       - key: DB_HOST
         fromDatabase:
@@ -39,8 +38,7 @@ services:
     runtime: docker
     region: singapore
     plan: free
-    dir: ./frontend
-    dockerfilePath: Dockerfile
+    dockerfilePath: ./frontend/Dockerfile
     envVars:
       - key: VITE_API_URL
         value: https://be-todo-02250377.onrender.com

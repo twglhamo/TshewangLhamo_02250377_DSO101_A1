@@ -1,7 +1,7 @@
 services:
   # Backend Service
   - type: web
-    name: be-todo
+    name: be-todo-02250377
     runtime: docker
     region: singapore
     plan: free
@@ -34,14 +34,14 @@ services:
 
   # Frontend Service
   - type: web
-    name: fe-todo
+    name: fe-todo-02250377
     runtime: docker
     region: singapore
     plan: free
     dockerfilePath: ./frontend/Dockerfile
     envVars:
       - key: VITE_API_URL
-        value: https://be-todo.onrender.com
+        value: https://be-todo-02250377.onrender.com
 
 databases:
   - name: todo-db

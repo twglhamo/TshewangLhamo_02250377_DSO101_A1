@@ -1,15 +1,4 @@
 services:
-  # PostgreSQL Database
-  - type: pserv
-    name: todo-postgres
-    ipAllowList: []
-    plan: free
-    region: singapore
-    postgresVersion: 15
-    initialDbName: tododb_yao3
-    user: todouser
-    passwordEnvVarName: DATABASE_PASSWORD
-
   # Backend Service
   - type: web
     name: be-todo
@@ -19,22 +8,29 @@ services:
     dockerfilePath: ./backend/Dockerfile
     envVars:
       - key: DB_HOST
-        value: todo-postgres.render.internal
+        fromDatabase:
+          name: todo-db
+          property: host
       - key: DB_USER
-        value: todouser
+        fromDatabase:
+          name: todo-db
+          property: user
       - key: DB_PASSWORD
-        value: ${DATABASE_PASSWORD}
+        fromDatabase:
+          name: todo-db
+          property: password
       - key: DB_NAME
-        value: tododb_yao3
+        fromDatabase:
+          name: todo-db
+          property: database
       - key: DB_PORT
-        value: "5432"
+        fromDatabase:
+          name: todo-db
+          property: port
       - key: PORT
         value: "5000"
       - key: NODE_ENV
         value: production
-    healthCheckPath: /
-    depends_on:
-      - todo-postgres
 
   # Frontend Service
   - type: web
@@ -44,5 +40,10 @@ services:
     plan: free
     dockerfilePath: ./frontend/Dockerfile
     envVars:
-      - key: REACT_APP_API_URL
+      - key: VITE_API_URL
         value: https://be-todo.onrender.com
+
+databases:
+  - name: todo-db
+    plan: free
+    region: singapore

@@ -262,6 +262,8 @@ function App() {
 
         <div style={styles.inputContainer}>
           <input
+            id="newTaskInput"
+            name="newTask"
             type="text"
             style={styles.input}
             placeholder="Enter a new task..."
@@ -294,6 +296,8 @@ function App() {
                 {editingId === task.id ? (
                   <>
                     <input
+                      id="editTaskInput"
+                      name="editTask"
                       type="text"
                       style={styles.editInput}
                       value={editingTitle}

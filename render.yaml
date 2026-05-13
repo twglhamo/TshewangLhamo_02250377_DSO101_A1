@@ -6,6 +6,7 @@ services:
     region: singapore
     plan: free
     dockerfilePath: ./backend/Dockerfile
+    buildContext: ./backend
     envVars:
       - key: DB_HOST
         fromDatabase:
@@ -39,6 +40,7 @@ services:
     region: singapore
     plan: free
     dockerfilePath: ./frontend/Dockerfile
+    buildContext: ./frontend
     envVars:
       - key: VITE_API_URL
         value: https://be-todo-02250377.onrender.com

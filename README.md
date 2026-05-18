@@ -9,37 +9,37 @@
 
 ---
 
-## 🚀 CURRENT DEPLOYMENT STATUS
+## CURRENT DEPLOYMENT STATUS
 
-**✅ ASSIGNMENT COMPLETE - ALL SERVICES DEPLOYED AND WORKING**
+**ASSIGNMENT COMPLETE - ALL SERVICES DEPLOYED AND WORKING**
 
 ### Live Services (May 14, 2026)
 
 | Service | URL | Status | Runtime |
 |---------|-----|--------|---------|
-| **Frontend** | https://fe-todo-02250377.onrender.com | 🟢 Deployed | Docker (Nginx) |
-| **Backend API** | https://be-todo-02250377.onrender.com | 🟢 Deployed | Docker (Node.js) |
-| **Database** | PostgreSQL on Render | 🟢 Available | PostgreSQL 15 |
-| **GitHub Repo** | https://github.com/twglhamo/TshewangLhamo_02250377_DSO101_A1 | 🟢 Public | Git + GitHub |
+| **Frontend** | https://fe-todo-02250377.onrender.com |  Deployed | Docker (Nginx) |
+| **Backend API** | https://be-todo-02250377.onrender.com |  Deployed | Docker (Node.js) |
+| **Database** | PostgreSQL on Render |  Available | PostgreSQL 15 |
+| **GitHub Repo** | https://github.com/twglhamo/TshewangLhamo_02250377_DSO101_A1 |  Public | Git + GitHub |
 
-### Verified Functionality ✅
+### Verified Functionality 
 
-- ✅ Frontend loads and displays To-Do list interface
-- ✅ Backend API responds with task data
-- ✅ Add new tasks → Saved to PostgreSQL database
-- ✅ Edit task titles → Updates persist in database
-- ✅ Complete/incomplete tasks → Checkbox state stored
-- ✅ Delete tasks → Removed from database and UI
-- ✅ Cross-origin communication → CORS properly configured
-- ✅ Auto-deployment → Git commits trigger rebuilds via Render Blueprint
-- ✅ Environment variables → Correctly injected at build and runtime
+-  Frontend loads and displays To-Do list interface
+-  Backend API responds with task data
+-  Add new tasks → Saved to PostgreSQL database
+-  Edit task titles → Updates persist in database
+-  Complete/incomplete tasks → Checkbox state stored
+-  Delete tasks → Removed from database and UI
+-  Cross-origin communication → CORS properly configured
+-  Auto-deployment → Git commits trigger rebuilds via Render Blueprint
+-  Environment variables → Correctly injected at build and runtime
 
 ### Sample Running Application
 
 **Frontend:** https://fe-todo-02250377.onrender.com
 
 The application displays:
-- "My To-Do List ✅" as the title
+- "My To-Do List " as the title
 - Two sample tasks: "so what up" and "hi"
 - Fully functional Add Task, Edit, and Delete buttons
 - Clean, responsive UI powered by React + Vite
@@ -80,12 +80,12 @@ This assignment demonstrates a complete CI/CD pipeline for a full-stack To-Do ap
 
 ### Key Features Implemented
 
-- ✅ Full CRUD operations for tasks
-- ✅ Real-time frontend-backend communication
-- ✅ Containerized microservices
-- ✅ Environment-specific configuration (.env files)
-- ✅ Automated deployment on Git commits
-- ✅ Production-ready multi-stage Docker builds
+-  Full CRUD operations for tasks
+-  Real-time frontend-backend communication
+-  Containerized microservices
+-  Environment-specific configuration (.env files)
+-  Automated deployment on Git commits
+-  Production-ready multi-stage Docker builds
 
 ---
 
@@ -200,19 +200,19 @@ The frontend successfully displays the full To-Do interface with:
 **Local application running at http://localhost:5173:**
 
 Verified end-to-end functionality:
-- ✅ Frontend loads successfully
-- ✅ Backend API responds correctly
-- ✅ Database persistence working
-- ✅ All CRUD operations functional
-- ✅ Real-time updates between frontend and backend
+-  Frontend loads successfully
+-  Backend API responds correctly
+-  Database persistence working
+-  All CRUD operations functional
+-  Real-time updates between frontend and backend
 
 **Features verified:**
-- ✅ Add new tasks via input field
-- ✅ Display all tasks in list format
-- ✅ Mark tasks as completed (checkbox)
-- ✅ Edit task titles in-place
-- ✅ Delete tasks from database
-- ✅ Real-time updates from API
+-  Add new tasks via input field
+-  Display all tasks in list format
+-  Mark tasks as completed (checkbox)
+-  Edit task titles in-place
+-  Delete tasks from database
+-  Real-time updates from API
 
 ---
 
@@ -352,17 +352,17 @@ Selected "Deploy an existing image from a registry" option:
 ![Backend Service on Render - Live Status](image/17.png)
 
 **Deployment Status:**
-- ✅ Status: Live
-- ✅ Service ID: srv-d7v2qrjhs73aep00
-- ✅ URL: https://be-todo-02250377.onrender.com
-- ✅ Docker Image: twglhamo/be-todo:02250377
+-  Status: Live
+-  Service ID: srv-d7v2qrjhs73aep00
+-  URL: https://be-todo-02250377.onrender.com
+-  Docker Image: twglhamo/be-todo:02250377
 
 **Server Logs Verification:**
 ```
 12:37:46 AM [tct82] Server is running on port 5000
 12:37:47 AM [tct82] Connected to PostgreSQL database
 12:37:47 AM [tct82] Tasks table verified/created successfully
-Your service is live ✅
+Your service is live 
 Available at your primary URL: https://be-todo-02250377.onrender.com
 ```
 
@@ -398,16 +398,16 @@ VITE_API_URL=https://be-todo-02250377.onrender.com
 ![Frontend Service Live - Render Dashboard](image/24.png)
 
 **Service Status:**
-- ✅ Status: Live
-- ✅ Service ID: srv-d7v2tss7vec73bnsoo0
-- ✅ URL: https://fe-todo-02250377.onrender.com
-- ✅ Image: twglhamo/fe-todo:02250377
+-  Status: Live
+-  Service ID: srv-d7v2tss7vec73bnsoo0
+-  URL: https://fe-todo-02250377.onrender.com
+-  Image: twglhamo/fe-todo:02250377
 
 **Frontend Deployment Logs:**
 ```
 12:49:41 AM [shc2d] 127.9.0.1 - - [08/May/2026:18:43:41 +0000]
 "HEAD / HTTP/1.1" 200 0 "-" "Go-http-client/1.1"
-12:43:44 AM ➜ Your service is live ✨
+12:43:44 AM ➜ Your service is live 
 12:43:44 AM ➜
 12:43:44 AM ➜
 12:43:44 AM ===============================================
@@ -423,11 +423,11 @@ VITE_API_URL=https://be-todo-02250377.onrender.com
 ### A.5 — Part A Verification
 
 **Part A Completed:**
-- ✅ Backend Docker image built and pushed to Docker Hub
-- ✅ Frontend Docker image built and pushed to Docker Hub
-- ✅ Backend deployed on Render with PostgreSQL environment variables
-- ✅ Frontend deployed on Render with live backend API URL
-- ✅ Full-stack application accessible at: https://fe-todo-02250377.onrender.com
+-  Backend Docker image built and pushed to Docker Hub
+-  Frontend Docker image built and pushed to Docker Hub
+-  Backend deployed on Render with PostgreSQL environment variables
+-  Frontend deployed on Render with live backend API URL
+-  Full-stack application accessible at: https://fe-todo-02250377.onrender.com
 
 ---
 
@@ -526,18 +526,18 @@ databases:
 ```
 
 **Key Configuration Updates:**
-- ✅ `dockerfilePath` points to correct Dockerfile location (`./backend/Dockerfile`, `./frontend/Dockerfile`)
-- ✅ **Dockerfile COPY commands use relative paths:** `COPY backend/package*.json ./` and `COPY frontend/ .` (since Render builds from repo root)
-- ✅ Frontend `VITE_API_URL` environment variable set to production backend URL and passed as build argument
-- ✅ Database automatically linked via `fromDatabase` properties
-- ✅ Both services deployed to Singapore region with free tier
-- ✅ Backend runs Node.js on port 5000
-- ✅ Frontend runs Nginx on port 80
+- `dockerfilePath` points to correct Dockerfile location (`./backend/Dockerfile`, `./frontend/Dockerfile`)
+- **Dockerfile COPY commands use relative paths:** `COPY backend/package*.json ./` and `COPY frontend/ .` (since Render builds from repo root)
+-  Frontend `VITE_API_URL` environment variable set to production backend URL and passed as build argument
+-  Database automatically linked via `fromDatabase` properties
+-  Both services deployed to Singapore region with free tier
+-  Backend runs Node.js on port 5000
+- Frontend runs Nginx on port 80
 
 **Important Build Configuration Note:**
 Render uses the repository root as the Docker build context, so all COPY commands in Dockerfiles must reference paths from the root:
-- ✅ Correct: `COPY backend/package*.json ./`
-- ❌ Incorrect: `COPY package*.json ./` (would fail to find package.json)
+-  Correct: `COPY backend/package*.json ./`
+-  Incorrect: `COPY package*.json ./` (would fail to find package.json)
 
 ---
 
@@ -549,13 +549,13 @@ Render uses the repository root as the Docker build context, so all COPY command
 - **URL:** https://github.com/twglhamo/TshewangLhamo_02250377_DSO101_A1.git
 
 **Files Pushed to GitHub:**
-- ✅ Backend source code + Dockerfile
-- ✅ Frontend source code + Dockerfile
-- ✅ render.yaml blueprint
-- ✅ README.md documentation
-- ✅ .gitignore (excluding .env and node_modules)
-- ❌ .env files (not committed)
-- ❌ node_modules (not committed)
+-  Backend source code + Dockerfile
+-  Frontend source code + Dockerfile
+-  render.yaml blueprint
+-  README.md documentation
+-  .gitignore (excluding .env and node_modules)
+-  .env files (not committed)
+-  node_modules (not committed)
 
 ---
 
@@ -582,10 +582,10 @@ Repository successfully selected: `twglhamo/TshewangLhamo_02250377_DSO101_A1`
 ![GitHub Blueprints - Connect Repository](image/github-blueprints.png)
 
 The repository is successfully connected and available for Blueprint deployment:
-- ✅ **Repository:** twglhamo/TshewangLhamo_02250377_DSO101_A1
-- ✅ **Visibility:** Public
-- ✅ **Blueprint File:** render.yaml (auto-detected)
-- ✅ **Ready for Deployment:** Yes
+-  **Repository:** twglhamo/TshewangLhamo_02250377_DSO101_A1
+-  **Visibility:** Public
+-  **Blueprint File:** render.yaml (auto-detected)
+-  **Ready for Deployment:** Yes
 
 ---
 
@@ -610,9 +610,9 @@ The repository is successfully connected and available for Blueprint deployment:
 ![Render Blueprint - Sync Confirmation](image/23.png)
 
 **Sync Results (7ed0916):**
-- ✅ Fix dockerfilePath format for Render deployment
-- ✅ Update web service be-todo Dockerfile path to `backend/Dockerfile`
-- ✅ Update web service fe-todo Dockerfile path to `frontend/Dockerfile`
+-  Fix dockerfilePath format for Render deployment
+-  Update web service be-todo Dockerfile path to `backend/Dockerfile`
+-  Update web service fe-todo Dockerfile path to `frontend/Dockerfile`
 
 All services successfully synchronized with blueprint configuration.
 
@@ -623,9 +623,9 @@ All services successfully synchronized with blueprint configuration.
 ![Render Production Dashboard](image/15.png)
 
 **Services Status:**
-- ✅ Database: todo-db (PostgreSQL, Available)
-- ✅ Backend: be-todo (Docker, Live)
-- ✅ Frontend: fe-todo (Docker, Live)
+- Database: todo-db (PostgreSQL, Available)
+-  Backend: be-todo (Docker, Live)
+-  Frontend: fe-todo (Docker, Live)
 
 ---
 
@@ -633,7 +633,7 @@ All services successfully synchronized with blueprint configuration.
 
 **Test Case: Updated Frontend Title**
 
-Changed frontend title from "My To-Do List" to "My To-Do List ✅" in `src/App.jsx`
+Changed frontend title from "My To-Do List" to "My To-Do List " in `src/App.jsx`
 
 **Git Commit and Push:**
 ```bash
@@ -650,7 +650,7 @@ Render detected the commit and automatically:
 3. Deployed updated image
 4. Made live within 3-5 minutes
 
-**Result:** ✅ Updated title visible on live application without manual intervention
+**Result:**  Updated title visible on live application without manual intervention
 
 ---
 
@@ -663,9 +663,9 @@ Render detected the commit and automatically:
 All services are now deployed via Render Blueprint from the GitHub repository:
 
 **Render Services Dashboard:**
-- ✅ **Backend Service:** `be-todo-02250377` — Status: **Deployed** (Docker)
-- ✅ **Frontend Service:** `fe-todo-02250377` — Status: **Deployed** (Docker)
-- ✅ **Database:** `todo-db` — Status: **Available** (PostgreSQL)
+-  **Backend Service:** `be-todo-02250377` — Status: **Deployed** (Docker)
+-  **Frontend Service:** `fe-todo-02250377` — Status: **Deployed** (Docker)
+-  **Database:** `todo-db` — Status: **Available** (PostgreSQL)
 
 **Service URLs:**
 - Backend API: https://be-todo-02250377.onrender.com
@@ -682,8 +682,8 @@ All services are now deployed via Render Blueprint from the GitHub repository:
 ![alt text](image/d6.png)
 
 Both services are deployed and running on Render:
-- ✅ **Frontend:** fe-todo-02250377 (Status: Deployed, Docker, Singapore)
-- ✅ **Backend:** be-todo-02250377 (Status: Deployed, Docker, Singapore)
+-  **Frontend:** fe-todo-02250377 (Status: Deployed, Docker, Singapore)
+-  **Backend:** be-todo-02250377 (Status: Deployed, Docker, Singapore)
 
 ---
 
@@ -691,25 +691,25 @@ Both services are deployed and running on Render:
 
 The application is **fully functional** with both frontend and backend properly communicating:
 
-✅ Frontend successfully loads at https://fe-todo-02250377.onrender.com  
-✅ Backend API responds at https://be-todo-02250377.onrender.com/api/tasks  
-✅ Database persists data across deployments  
-✅ CORS properly configured for cross-origin requests  
-✅ Environment variables correctly injected during build  
+Frontend successfully loads at https://fe-todo-02250377.onrender.com  
+ Backend API responds at https://be-todo-02250377.onrender.com/api/tasks  
+ Database persists data across deployments  
+ CORS properly configured for cross-origin requests  
+ Environment variables correctly injected during build  
 
 **Functional Tests Performed:**
 
 | Test Case | Result | Details |
 |-----------|--------|---------|
-| Add Task | ✅ Pass | New tasks saved to PostgreSQL |
-| Display All Tasks | ✅ Pass | Frontend fetches and displays all tasks |
-| Edit Task | ✅ Pass | Task title updates persist in database |
-| Complete Task | ✅ Pass | Checkbox state tracked in database |
-| Delete Task | ✅ Pass | Tasks removed from database and UI |
-| Backend API Response | ✅ Pass | API returns `{"status":"ok"}` |
-| Cross-Service Communication | ✅ Pass | Frontend correctly calls backend at production URL |
-| Database Persistence | ✅ Pass | Tasks survive service restarts |
-| Auto-Deployment | ✅ Pass | Git commits trigger automatic rebuilds |
+| Add Task | Pass | New tasks saved to PostgreSQL |
+| Display All Tasks | Pass | Frontend fetches and displays all tasks |
+| Edit Task |  Pass | Task title updates persist in database |
+| Complete Task |  Pass | Checkbox state tracked in database |
+| Delete Task |  Pass | Tasks removed from database and UI |
+| Backend API Response |  Pass | API returns `{"status":"ok"}` |
+| Cross-Service Communication |  Pass | Frontend correctly calls backend at production URL |
+| Database Persistence |  Pass | Tasks survive service restarts |
+| Auto-Deployment |  Pass | Git commits trigger automatic rebuilds |
 
 **Sample Test Data in Database:**
 ```json
@@ -738,13 +738,13 @@ The application is **fully functional** with both frontend and backend properly 
 ![alt text](image/d5.png)
 
 **Application Features Verified:**
-- ✅ Title displays: "My To-Do List check"
-- ✅ Input field for new tasks: "Enter a new task..."
-- ✅ Add Task button (blue) functional
-- ✅ Task list displays sample tasks: "so what up" and "hi"
-- ✅ Edit button (gray) and Delete button (red) visible for each task
-- ✅ Responsive UI layout with proper styling
-- ✅ All elements interactive and functional
+-  Title displays: "My To-Do List check"
+-  Input field for new tasks: "Enter a new task..."
+-  Add Task button (blue) functional
+-  Task list displays sample tasks: "so what up" and "hi"
+- Edit button (gray) and Delete button (red) visible for each task
+- Responsive UI layout with proper styling
+-  All elements interactive and functional
 
 ---
 
@@ -760,11 +760,11 @@ The application is **fully functional** with both frontend and backend properly 
 ```
 
 **Backend Verification:**
-- ✅ Backend service running and accessible
-- ✅ API responds with correct JSON format
-- ✅ CORS headers properly configured (allowing frontend requests)
-- ✅ Database connection established
-- ✅ All endpoints functional
+-  Backend service running and accessible
+- API responds with correct JSON format
+-  CORS headers properly configured (allowing frontend requests)
+-  Database connection established
+-  All endpoints functional
 
 ---
 
@@ -773,11 +773,11 @@ The application is **fully functional** with both frontend and backend properly 
 ![alt text](image/d3.png)
 
 Blueprint Status:
-- ✅ **Blueprint Name:** DSO_assignment1
-- ✅ **Status:** Synced
-- ✅ **Repository:** twglhamo/TshewangLhamo_02250377_DSO101_A1
-- ✅ **Last Sync:** &lt;1m ago
-- ✅ **Auto-Deployment:** Enabled (Git commits trigger builds)
+-  **Blueprint Name:** DSO_assignment1
+-  **Status:** Synced
+-  **Repository:** twglhamo/TshewangLhamo_02250377_DSO101_A1
+-  **Last Sync:** &lt;1m ago
+-  **Auto-Deployment:** Enabled (Git commits trigger builds)
 
 ---
 
@@ -798,8 +798,8 @@ error: failed to solve: process "/bin/sh -c npm install" did not complete succes
 - Render always uses repository root as build context
 
 **Solution Implemented:**
-- ✅ **Removed `buildContext` from render.yaml** (not supported by Render)
-- ✅ **Updated Dockerfiles to use paths relative to repository root:**
+- **Removed `buildContext` from render.yaml** (not supported by Render)
+- **Updated Dockerfiles to use paths relative to repository root:**
   ```dockerfile
   # Backend Dockerfile
   COPY backend/package*.json ./  # Instead of COPY package*.json ./
@@ -809,7 +809,7 @@ error: failed to solve: process "/bin/sh -c npm install" did not complete succes
   COPY frontend/package*.json ./
   COPY frontend/ .
   ```
-- ✅ This works because Render builds from repository root, so all files must be referenced with their subdirectory path
+-  This works because Render builds from repository root, so all files must be referenced with their subdirectory path
 
 **Key Learning:** Render's build context is always the repository root. All file paths in Dockerfile must be relative to the root of the repository, not the subdirectory containing the Dockerfile.
 
@@ -849,7 +849,7 @@ Access to XMLHttpRequest has been blocked by CORS policy
 **Solution:**
 - Backend already had `cors` middleware: `app.use(cors())`
 - Ensured frontend uses correct backend URL in build
-- ✅ CORS properly configured for cross-origin requests
+-  CORS properly configured for cross-origin requests
 
 ---
 
@@ -873,7 +873,7 @@ Access to XMLHttpRequest has been blocked by CORS policy
     placeholder="Enter a new task..." 
   />
   ```
-- ✅ Improves form accessibility and browser autofill support
+-  Improves form accessibility and browser autofill support
 
 ---
 
@@ -899,7 +899,7 @@ Access to XMLHttpRequest has been blocked by CORS policy
 
 ## CONCLUSION
 
-**Assignment Completed Successfully ✅**
+**Assignment Completed Successfully **
 
 ### Learning Outcomes Achieved
 
@@ -928,21 +928,19 @@ Access to XMLHttpRequest has been blocked by CORS policy
 
 | Service | URL | Status |
 |---------|-----|--------|
-| Frontend | https://fe-todo-02250377.onrender.com | ✅ Live |
-| Backend API | https://be-todo-02250377.onrender.com | ✅ Live |
-| GitHub Repo | https://github.com/twglhamo/TshewangLhamo_02250377_DSO101_A1 | ✅ Public |
+| Frontend | https://fe-todo-02250377.onrender.com |  Live |
+| Backend API | https://be-todo-02250377.onrender.com |  Live |
+| GitHub Repo | https://github.com/twglhamo/TshewangLhamo_02250377_DSO101_A1 |  Public |
 
 ### Key Files Submitted
 
-- ✅ **backend/Dockerfile** - Production-ready Node.js container
-- ✅ **frontend/Dockerfile** - Multi-stage React/nginx container
-- ✅ **render.yaml** - Infrastructure as Code blueprint
-- ✅ **README.md** - Complete documentation with screenshots
-- ✅ **Source Code** - Fully functional Express.js + React application
-- ✅ **.gitignore** - Excludes sensitive files from version control
+-  **backend/Dockerfile** - Production-ready Node.js container
+-  **frontend/Dockerfile** - Multi-stage React/nginx container
+-  **render.yaml** - Infrastructure as Code blueprint
+-  **README.md** - Complete documentation with screenshots
+-  **Source Code** - Fully functional Express.js + React application
+-  **.gitignore** - Excludes sensitive files from version control
 
----
 
-**Submitted by:** Tshewang Lhamo (02250377)  
-**Date:** May 9, 2026  
-**Course:** DSO101 - Continuous Integration and Continuous Deployment
+
+C:\Users\TSHEWANG LHAM\OneDrive\Desktop\DSO
